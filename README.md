@@ -1,6 +1,5 @@
 # xterm-terminal
 ![Travis CI Build Status Badge](https://travis-ci.org/parisk/xterm-terminal.svg?branch=master)
----
 
 `xterm-terminal` is a simple custom element that acts as a wrapper for [xterm.js](https://github.com/sourcelair/xterm.js).
 
