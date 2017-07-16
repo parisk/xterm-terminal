@@ -3,7 +3,7 @@ describe('xterm-terminal', () => {
     it('should set `._xterm` to a Terminal instance', () => {
       let term = document.createElement('xterm-terminal');
 
-      document.appendChild(term);
+      document.body.appendChild(term);
       assert.exists(term._xterm);
     });
   });
