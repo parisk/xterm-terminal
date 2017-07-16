@@ -9,6 +9,6 @@ module.exports = function(config) {
     browsers: ['ChromeHeadless'],
     autoWatch: false,
     concurrency: Infinity,
-    customContextFile: 'index.html'
+    customContextFile: 'test/context.html'
   });
 };
