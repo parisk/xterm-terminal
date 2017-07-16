@@ -1,0 +1,7 @@
+{
+    "name": "xterm-terminal",
+    "version": "0.1.0",
+    "dependencies": {
+      "xterm": "2.8.1"
+    }
+}
