@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+}
+
+xterm-terminal {
+  font-family: 'Source Code Pro', 'Monaco', monospace;
+}
+
+xterm-terminal .terminal a {
+  text-decoration: underline;
+}
