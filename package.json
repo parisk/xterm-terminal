@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.0",
-    "chai-spies": "^0.7.1",
+    "chai-spies": "git+https://github.com/chaijs/chai-spies#2f403a9",
     "http-server": "^0.10.0",
     "karma": "^1.7.0",
     "karma-chai": "^0.1.0",
