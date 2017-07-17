@@ -18,7 +18,7 @@ describe('xterm-terminal', () => {
     });
 
     it('#attachCustomKeydownHandler', () => {
-      assert.exists(term._attachCustomKeydownHandler);
+      assert.exists(term.attachCustomKeydownHandler);
     });
 
     it('#blur', () => {
