@@ -27,6 +27,8 @@ For a full example take a look at [`index.html`](index.html).
 
 ## Usage
 
+`xterm-terminal` implements most of [xterm.js](https://github.com/sourcelair/xterm.js)' public API as methods in the `xterm-terminal` custom elements. Below you can find all the xterm.js methods implemented by `xterm-terminal`.
+
 ### [`attachCustomKeydownHandler(customKeydownHandler)`](https://xtermjs.org/docs/api/terminal/#attachcustomkeydownhandlercustomkeydownhandler)
 Attach a custom keydown handler to allow consumers to allow certain key strokes to skip processing by the terminal.
 
