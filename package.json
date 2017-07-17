@@ -1,17 +1,20 @@
 {
   "name": "xterm-terminal",
   "version": "0.1.0",
+  "dependencies": {
+    "xterm": "2.8.1"
+  },
   "devDependencies": {
     "chai": "^4.1.0",
+    "http-server": "^0.10.0",
     "karma": "^1.7.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-mocha": "^1.3.0",
-    "mocha": "^3.4.2",
-    "xterm": "2.8.1"
+    "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
-  },
-  "dependencies": {}
+    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
+    "start": "http-server . -p ${PORT:-3000}"
+  }
 }
